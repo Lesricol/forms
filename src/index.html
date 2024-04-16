@@ -9,7 +9,34 @@
     <title>Vite Template</title>
   </head>
   <body>
-    
+    <h1>forms</h1>
+    <form class="form">
+      <div class="form__field">
+        <label for="">City</label>
+        <input type="text" id="city" name="city" />
+        <select name="country" id="country">
+          <option value="spain">Spain</option>
+        </select>
+      </div>
+      <div class="form__field">
+        <label for="terms">Acept terms of use</label>
+        <input type="checkbox" id="terms" name="terms" value="terms" />
+      </div>
+      <div>
+        <h2>Gender</h2>
+        <label for="man">Man</label>
+        <input type="radio" id="man" name="gender" value="man" />
+        <label for="woman">Woman</label>
+        <input type="radio" name="gender" id="usb" value="woman" />
+        <label for="usb">Usb</label>
+        <input type="radio" name="gender" id="usb" value="usb" />
+      </div>
+      <input type="submit" value="SEND" />
+    </form>
+    <div class="toggle">
+      <input type="checkbox" id="toggle" class="toggle-checkbox" />
+      <label for="toggle" class="toggle-label"></label>
+    </div>
     <script type="module" src="./js/index.js"></script>
   </body>
 </html>
